@@ -1,1 +1,1 @@
-web: gunicorn gettingstarted.wsgi
+web: python manage.py migrate gunicorn gettingstarted.wsgi
